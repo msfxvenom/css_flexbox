@@ -1,2 +1,3 @@
 
-this is a git test 
+this is a git test
+i have somewhat modified hi.txt
