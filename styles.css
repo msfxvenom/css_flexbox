@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.header {
+  background-color: #1f2937;
+  display: flex;
+  padding: 7px 30px 30px 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.header-menu {
+  color: #f9faf8;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  display: flex;
+  align-self: center;
+  font-size: 15px;
+  color: #adb0b7;
+  cursor: pointer;
+}
+.link1 {
+  margin-left: auto;
+  margin-right: 25px;
+}
+.link2 {
+  margin-right: 25px;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+.header-content {
+  width: 900px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.desc {
+  flex: 1;
+  margin-right: 50px;
+}
+.herotext {
+  color: #f9faf8;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "HelveticaNeue";
+}
+.subtext {
+  color: #adb0b7;
+  font-size: 15px;
+}
+.b1 {
+  background-color: #3882f6;
+  margin-top: 10px;
+  width: 20%;
+  text-align: center;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.b1:hover {
+  background-color: #0a58d3;
+}
+.img-placeholder {
+  background-color: #6d747d;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+.plc-text {
+  font-size: 15px;
+  color: #bdc1ba;
+}
+
+.content {
+  background-color: white;
+  height: 640px;
+}
+.random {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: "HelveticaNeue";
+  font-size: 30px;
+  font-weight: bold;
+  color: #1f2937;
+}
+.img-container {
+  margin: 1px auto;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bimg {
+  width: 150px;
+  margin-right: 50px;
+}
+.img {
+  border: 3.5px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+.img-subtext {
+  color: #6d747d;
+  padding-top: 10px;
+  text-align: center;
+}
+.qbox {
+  background-color: #e5e7eb;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 69px;
+}
